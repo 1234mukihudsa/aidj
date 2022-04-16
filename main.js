@@ -1,4 +1,5 @@
-song="";
+song1="";
+song2="";
 leftWristX = 0;
 leftWristY = 0;
 rightWristX = 0;
@@ -18,8 +19,6 @@ function modelLoaded(){
     console.log('PoseNet Is Intiallized');
 }
 function preload(){
-
-song = loadSound("music.mp3");
 }
 function play(){
     song.play();
